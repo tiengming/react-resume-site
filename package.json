@@ -92,7 +92,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "yarn cache clean && yarn install --verbose && node scripts/build.js",
+    "build": "npm ci && node scripts/build.js",
     "test": "node scripts/test.js",
     "watch:themes": "gulp watch",
     "compile:themes": "gulp compileLess",
